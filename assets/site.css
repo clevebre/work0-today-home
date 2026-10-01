@@ -108,9 +108,19 @@ aside.help{margin:0 0 22px;padding:10px 14px;border:1px solid var(--line);border
 aside.help p{margin:0}
 aside.help a{font-weight:600;white-space:nowrap}
 figure.words.part p:first-child{font-weight:600}
+figure.words.case h2{font-family:var(--head);font-size:19px;line-height:1.3;margin:0 0 .6em}
+figure.words.case{margin-top:14px;margin-bottom:14px}
 figure.words.baseline p{font-size:19px}
 figure.words.phrases p{font-family:var(--head);font-size:20px;margin:0 0 .3em}
+span.tex sub{font-size:.75em;line-height:0}
+a.buy{display:inline-block;padding:8px 14px;border:2px solid var(--a);border-radius:10px;font-weight:600;text-decoration:none}
+p.buy-line{max-width:var(--read);margin:18px 0}
+p.buy-line span{display:block;color:var(--muted);font-size:14px;margin-top:6px}
+section.case-entry{max-width:var(--read)}
+section.case-entry h3{margin:26px 0 4px}
+ul.others{max-width:var(--read);padding-left:1.2em}
+ul.others li{margin:6px 0}
 dl.help-list dd span{display:block;color:var(--muted);font-size:15px;margin-top:2px}
 dl.help-list a.tel{font-weight:600;font-size:18px;white-space:nowrap}
 @media (max-width:560px){dl.help-list{grid-template-columns:minmax(0,1fr);gap:0}dl.help-list dt{color:var(--ink);font-weight:600;margin-top:14px}}
-@media print{header.top,nav.constellation,footer,.pager,.skip,ul.doors{display:none!important}body{background:#fff!important;color:#000!important}figure.words{border-left-color:#000}}
+@media print{header.top,nav.constellation,footer,.pager,.skip,ul.doors:not(.books){display:none!important}body{background:#fff!important;color:#000!important}figure.words{border-left-color:#000}a.buy{border:0;padding:0}}
